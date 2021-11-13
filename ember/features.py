@@ -491,10 +491,10 @@ class PEFeatureExtractor(object):
         self.features = [
             # ByteHistogram(),
             # ByteEntropyHistogram(),
-            # StringExtractor(),
-            GeneralFileInfo()
-            # HeaderFileInfo(),
-            # SectionInfo(),
+            StringExtractor(),
+            GeneralFileInfo(),
+            HeaderFileInfo(),
+            SectionInfo(),
             # ImportsInfo(),
             # ExportsInfo()
         ]
